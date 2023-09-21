@@ -2,13 +2,13 @@
 	"name": "Minimalistic",
 	"type": "dark",
 	"colors": {
-		"foreground": "#ccc",
+		"foreground": "#dfdfdf",
 		"focusBorder": "#222",
 		"widget.shadow": "#0000",
 		
 		"statusBar.background": "#222",
 		"statusBar.border": "#333",
-		"statusBar.foreground": "#ccc",
+		"statusBar.foreground": "#dfdfdf",
 		"statusBar.debuggingBackground": "#77a",
 		"statusBar.debuggingForeground": "#eee",
 		"statusBar.noFolderBackground": "#aaa",
@@ -16,23 +16,23 @@
 		
 		"panel.background": "#222",
 		"panel.border": "#333",
-		"panelTitle.activeBorder": "#ccc",
-		"panelTitle.activeForeground": "#ccc",
+		"panelTitle.activeBorder": "#dfdfdf",
+		"panelTitle.activeForeground": "#dfdfdf",
 		"panelTitle.inactiveForeground": "#777",
 		
 		"sideBar.background": "#222",
-		"sideBar.foreground": "#ccc",
+		"sideBar.foreground": "#dfdfdf",
 		"sideBar.border": "#333",
 		"sideBarTitle.foreground": "#aaa",
 		"sideBarSectionHeader.background": "#353535",
-		"sideBarSectionHeader.foreground": "#ccc",
+		"sideBarSectionHeader.foreground": "#dfdfdf",
 		
 		"activityBar.background": "#353535",
-		"activityBar.foreground": "#ccc",
+		"activityBar.foreground": "#dfdfdf",
 		
 		"tab.activeBackground": "#333",
-		"tab.activeForeground": "#ccc",
-		"tab.activeBorder": "#ccc",
+		"tab.activeForeground": "#dfdfdf",
+		"tab.activeBorder": "#dfdfdf",
 		"tab.inactiveBackground": "#232323",
 		"tab.hoverBackground": "#444",
 		
@@ -42,19 +42,19 @@
 		"button.background": "#aaa",
 		"button.foreground": "#111",
 		
-		"editor.background": "#1d1d1d",
-		"editor.foreground": "#ccc",
+		"editor.background": "#202022",
+		"editor.foreground": "#dfdfdf",
 		
 		"editor.selectionBackground": "#3c3c3c",
 		
 		"editor.selectionHighlightBackground": "#303030",
-		"editor.selectionHighlightBorder": "#1d1d1d",
+		"editor.selectionHighlightBorder": "#202022",
 		
-		"editor.lineHighlightBorder": "#1d1d1d",
-		"editor.lineHighlightBackground": "#252525",
+		"editor.lineHighlightBorder": "#202022",
+		"editor.lineHighlightBackground": "#272729",
 		
 		"editorCursor.background": "#111",
-		"editorCursor.foreground": "#ccc",
+		"editorCursor.foreground": "#dfdfdf",
 		
 		"editorLineNumber.activeForeground": "#aaa",
 		"editorLineNumber.foreground": "#444",
@@ -72,19 +72,14 @@
 		"editorGroup.border": "#333"
 	},
 	"tokenColors": [
-		// {
-		// 	"settings": {
-		// 		// "background": "#1d1d1d",
-		// 		"foreground": "#ccc"
-		// 	}
-		// },
 		{
 			"name": "Comment",
 			"scope": [
 				"comment"
 			],
 			"settings": {
-				"foreground": "#6a6",
+				// "foreground": "#d2a562",
+				"foreground": "#96ddab",
 				"fontStyle": ""
 			}
 		},
@@ -98,7 +93,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#ccc",
+				"foreground": "#dfdfdf",
 				"fontStyle": ""
 			}
 		},
@@ -125,7 +120,7 @@
 				"support.variable.glsl"
 			],
 			"settings": {
-				"foreground": "#999",
+				"foreground": "#aaa",
 				"fontStyle": ""
 			}
 		},
@@ -136,7 +131,8 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#aad",
+				"foreground": "#ada0f8",
+				// "foreground": "#e1d17f",
 				"fontStyle": ""
 			}
 		},
@@ -179,7 +175,7 @@
 				"meta.paragraph.markdown"
 			],
 			"settings": {
-				"foreground": "#ccc",
+				"foreground": "#dfdfdf",
 				"fontStyle": ""
 			}
 		},
@@ -210,7 +206,7 @@
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#aad",
+				"foreground": "#ada0f8",
 				"fontStyle": ""
 			}
 		},
